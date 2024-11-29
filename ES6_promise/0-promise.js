@@ -1,3 +1,5 @@
 export default function getResponseFromAPI() {
-  return Promise.resolve(1);
+  return new Promise((resolve) => {
+    resolve('True');
+  });
 }

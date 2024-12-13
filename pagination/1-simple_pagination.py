@@ -41,3 +41,4 @@ class Server:
 
         """Return the slice of the dataset corresponding to the page"""
         return data[start_index:end_index] if start_index < len(data) else []
+    
